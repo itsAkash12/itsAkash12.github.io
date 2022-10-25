@@ -1,34 +1,100 @@
-.main{
-    padding: 10px 0px;
-    background-color: #85dcb8;
+.main {
+  height: 85px;
+  background-color: #fffdfc;
+  display: flex;
+  position: sticky;
+  top: 0px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
-.container{
-    width:90%;
-    margin:auto;
-    display: flex;
-    justify-content: space-between;
+.container {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
-.name > p{
-    font-size: 30px;
+.name {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.details{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 13px;
+.name > p {
+  font-size: 1.3rem;
+  text-transform: uppercase;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: pointer;
+  color: rgb(53, 53, 53);
 }
-.button>button{
-    padding: 10px 15px;
-    border: none;
-    background-color: white;
-    font-size: 15px;
-    font-weight: bold;
-    border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.name > p::first-letter {
+  font-size: 1.8rem;
 }
-.button>button:hover{
-    /* background-color: aqua; */
-    border-radius: 8px;
-    cursor: pointer;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+.name > p > span {
+  display: inline-block;
+}
+.name > p > span::first-letter {
+  font-size: 1.8rem;
+}
+.name > p:hover {
+  color: #00ade7;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
+}
+.name > img {
+  width: 70px;
+  cursor: pointer;
+}
+.details {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+.button > button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #fffdfc;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  position: relative;
+  color: rgb(53, 53, 53);
+  cursor: pointer;
+}
+.button > button:hover {
+  color: rgb(255, 0, 76);
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in;
+  transition: all 0.2s ease-in-out;
+  /* background-color: aqua; */
+  /* text-underline-offset: 7px; */
+}
+.button > button::before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 1.8px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  transform: scaleX(0);
+  transition: transform 0.2s ease;
+}
+.button > button:hover::before {
+  transform: scaleX(0.8);
+}
+.icon {
+  background-color: rgb(255, 255, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.icon:hover {
+  box-shadow: rgba(0, 174, 255, 0.36) 0px 3px 6px, rgba(0, 174, 255, 0.43) 0px 3px 6px;
 }
