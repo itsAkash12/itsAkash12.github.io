@@ -13,7 +13,7 @@ export default function About() {
     });
   }, []);
   return (
-    <div className="about">
+    <div id="home" className="about">
       <div className="about-container">
         <div className="left" data-aos={"fade-left"}>
           <p className="hello">Hello 👋.</p>

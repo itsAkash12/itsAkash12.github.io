@@ -116,7 +116,7 @@ const projects = {
 
 export default function Projects() {
   return (
-    <div className="projects-container">
+    <div id="projects" className="projects-container">
       <p>Projects</p>
       <div className="project-cards">
         {projects.data.map((el) => (
@@ -165,7 +165,7 @@ export default function Projects() {
               <p className="super-des">{el.description}</p>
               <div className="func-buttons">
                 <a href={el.url} target="_blank">
-                  <button>Repo</button>
+                  <button>GitHub</button>
                 </a>
                 <a href={el.deploy_url} target="_blank">
                 <button>Live</button>

@@ -1,4 +1,5 @@
 .projects-container{
+    margin-top: -100px;
 }
 
 .projects-container>p{
@@ -23,6 +24,11 @@
 #project-cards-image>img{
     width: 90%;
     height: 90%;    
+    transition: 300ms ease-in-out;
+}
+#project-cards-image>img:hover{
+    transform:scale(1.10);
+    transition: 300ms ease-in-out;
 }
 .pro_img{
     width:20%
@@ -38,6 +44,15 @@
     justify-content: center;
     gap: 30px;
     margin: auto;
+    
+}
+.aaa:hover, .aaaa:hover{
+    transform: scale(1.30);
+    transition: 300ms ease-in-out;
+}
+.aaa, .aaaa{
+    /* transform: scale(1.30); */
+    transition: 300ms ease-in-out;
 }
 .aaa:nth-child(1), .aaaa:nth-child(2){
     color: #E44F26;
@@ -56,4 +71,25 @@
     font-weight: 600;
     line-height: normal;
     color: #EA0046;
+}
+.func-buttons{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.func-buttons>a>button{
+    background-color: #FC1056;
+    color: white;
+    border: none;
+    font-size: large;
+    width: 100px;
+    height: 40px;
+    border-radius: 20px;
+    border: 2px solid white;
+}
+.func-buttons>a>button:hover{
+    background-color: white;
+    color: #FC1056;
+    border: 2px solid #FC1056;
+    cursor: pointer;
 }

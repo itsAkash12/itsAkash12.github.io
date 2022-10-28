@@ -3,7 +3,7 @@ import "./AboutMe.css";
 import FeelingProud from "../greetings/FeelingProud";
 export default function AboutMe() {
   return (
-    <div id="AboutMe-container">
+    <div id="about">
       <div id="AboutMe-parent">
         <p>Who I am</p>
         <div className="parent">
