@@ -1,18 +1,33 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./About.css";
 import profile from "../images/final_profile_pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import AOS from "aos"
 import Typewriter from "typewriter-effect";
 export default function About() {
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
   return (
     <div className="about">
       <div className="about-container">
-        <div className="left">
+        <div className="left" data-aos={"fade-left"}>
           <p className="hello">Hello 👋.</p>
           <p className="intro">
-            I'm<span id="name"> Akash Kumar Singh</span>
+            I'm<span id="name"><Typewriter
+              options={{
+                strings: [
+                  "Akash Kumar Singh",
+                  "आकाश कुमार सिंह",
+                ],
+                autoStart: true,
+                loop: true,
+              }}
+            /></span>
           </p>
           <div className="type">
             <Typewriter

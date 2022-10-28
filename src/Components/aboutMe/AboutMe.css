@@ -1,0 +1,33 @@
+.parent{
+    display: flex;
+    margin: auto;
+    margin-top: -30px;
+    justify-content: space-around;
+}
+#AboutMe-container{
+    width: 80%;
+    margin: auto;
+}
+#AboutMe-parent{
+    /* margin-top: 50px; */
+    padding-top: 50px;
+}
+#AboutMe-parent>p{
+    color: #00ade7;
+    font-size: 52.8px;
+    font-weight: 700;
+    line-height: normal;
+}
+.animation{
+    width: 500px;
+}
+.paragraph{
+    width: 490px;
+    text-align: left;
+}
+.paragraph>p{
+    font-size: 18.4px;
+    font-weight: 500;
+    line-height: normal;
+    color: rgba(33, 33, 33, 0.8);
+}

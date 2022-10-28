@@ -1,4 +1,3 @@
-
 .about-container {
   padding-top: 100px;
   width: 70%;
@@ -6,91 +5,97 @@
   margin: auto;
   gap: 100px;
 }
-.left{
-    text-align: left;
-    width: 400px;
+.left {
+  text-align: left;
+  width: 400px;
 }
 .about-img > img {
   width: 400px;
   margin-top: -40px;
-  box-shadow: rgba(14,118,168, 0.8) 0px 15px 35px;
-    transition: all 0.2s ease-in-out;
+  box-shadow: rgba(14, 118, 168, 0.8) 0px 15px 35px;
+  transition: all 0.2s ease-in-out;
   border-radius: 50%;
 }
-.about-img > img:hover{
-    box-shadow: rgba(252,16,86, 0.8) 0px 15px 35px;
-    transition: all 0.2s ease-in-out;
+.about-img > img:hover {
+  box-shadow: rgba(252, 16, 86, 0.8) 0px 15px 35px;
+  transition: all 0.2s ease-in-out;
 }
-.hello{
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 5px;
-    color:rgb(43, 43, 43);
+.hello {
+  font-size: 50px;
+  font-weight: 700;
+  line-height: 5px;
+  color: rgb(43, 43, 43);
 }
-.intro, .type{
-    font-size: 24px;
-    font-weight: 600;
-    /* line-height: 40px; */
-    color: rgb(86, 86, 86);
+.intro {
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
 }
-#name{
-    color: rgb(255, 0, 76);
+.intro,
+.type {
+  font-size: 24px;
+  font-weight: 600;
+  /* line-height: 40px; */
+  color: rgb(86, 86, 86);
 }
-.links{
-    display: flex;
-    font-size: 40px;
-    gap: 15px;
-    margin-top: 25px;
+#name {
+  color: rgb(255, 0, 76);
 }
-.links>div{
-    text-align: center;
-    width: 55px;
-    border-radius:50%;
-    cursor: pointer;
+.links {
+  display: flex;
+  font-size: 40px;
+  gap: 15px;
+  margin-top: 25px;
 }
-.links>div>a{
-    color: white;
+.links > div {
+  text-align: center;
+  width: 60px;
+  border-radius: 50%;
+  cursor: pointer;
 }
-.github{
-    color: white;
-    background-color: black;
+.links > div > a {
+  color: white;
 }
-.github:hover{
-    box-shadow: rgba(0,0,0, 0.8) 0px 5px 15px;
-    transition: all 0.2s ease-in-out;
+.github {
+  color: white;
+  background-color: black;
 }
-.linkedin{
-    background-color: rgb(14,118,168);
-    color: white;
+.github:hover {
+  box-shadow: rgba(0, 0, 0, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
 }
-.linkedin:hover{
-    box-shadow: rgba(14,118,168, 0.8) 0px 5px 15px;
-    transition: all 0.2s ease-in-out;
+.linkedin {
+  background-color: rgb(14, 118, 168);
+  color: white;
 }
-.envelope{
-    color: white;
-    background-color: rgb(255, 69, 0);
+.linkedin:hover {
+  box-shadow: rgba(14, 118, 168, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
 }
-.envelope:hover{
-    box-shadow: rgba(255, 69, 0, 0.8) 0px 5px 15px;
-    transition: all 0.2s ease-in-out;
+.envelope {
+  color: white;
+  background-color: rgb(255, 69, 0);
 }
-#button{
-    margin-top: 40px;
+.envelope:hover {
+  box-shadow: rgba(255, 69, 0, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
 }
-#button>button{
-    width: 198px;
-    height: 50px;
-    border: none;
-    font-size: 18px;
-    font-weight: 500;
-    border-radius: 5px;
-    background-color: rgb(252,16,86);
-    color: white;
-    transition: all 0.2s ease-in-out;
-    cursor: pointer;
+#button {
+  margin-top: 40px;
 }
-#button>button:hover{
-    box-shadow: rgba(252,16,86, 0.8) 0px 5px 15px;
-    transition: all 0.2s ease-in-out;
+#button > button {
+  width: 198px;
+  height: 50px;
+  border: none;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  background-color: rgb(252, 16, 86);
+  color: white;
+  transition: all 0.2s ease-in-out;
+  cursor: pointer;
+}
+#button > button:hover {
+  box-shadow: rgba(252, 16, 86, 0.8) 0px 5px 15px;
+  transition: all 0.2s ease-in-out;
 }

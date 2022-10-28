@@ -3,6 +3,8 @@
   background-color: #fffdfc;
   display: flex;
   position: sticky;
+  width: 100%;
+  z-index: 9999;
   top: 0px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -63,7 +65,7 @@
   cursor: pointer;
 }
 .button > button:hover {
-  color: rgb(255, 0, 76);
+  color: #ff004c;
   -moz-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   -webkit-transition: all 0.2s ease-in;
