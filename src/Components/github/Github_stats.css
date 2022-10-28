@@ -1,0 +1,24 @@
+.stats{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+.calender{
+    width: 80%;
+    margin: auto;
+}
+.head{
+    font-family: var(--primaryFont);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+    color: #00ade7;
+    /* font-size: 2.5rem; */
+}
+.title{
+    font-size: 30px;
+    color: #FC1056;
+    font-weight: 700;
+    line-height: normal;
+}

@@ -1,5 +1,6 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link, Button, Element, Events, animateScroll as scroll, scrollSpy, scroller } from 'react-scroll'
 import { motion } from "framer-motion";
 import "./Header.css";
 import { CgSun } from "react-icons/cg/";
@@ -21,21 +22,24 @@ export default function Header() {
           </p>
         </div>
         <div className="details">
-          <NavLink className="button">
+          <Link className="button" activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>
             <button>HOME</button>
-          </NavLink>
-          <NavLink className="button">
+          </Link>
+          <Link className="button" activeClass="active" to="about" spy={true} smooth={true} offset={20} duration={500}>
             <button>ABOUT ME</button>
-          </NavLink>
-          <NavLink className="button">
+          </Link>
+          <Link className="button" activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}>
             <button>SKILLS</button>
-          </NavLink>
-          <NavLink className="button">
+          </Link>
+          <Link className="button" activeClass="active" to="projects" spy={true} smooth={true} offset={-80} duration={500}>
             <button>PROJECT</button>
-          </NavLink>
-          <NavLink className="button">
+          </Link>
+          <Link className="button" activeClass="active" to="github" spy={true} smooth={true} offset={-80} duration={500}>
+            <button>GITHUB</button>
+          </Link>
+          <Link className="button" activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>
             <button>CONTACT & RESUME</button>
-          </NavLink>
+          </Link>
           <div className="icon">
             <CgSun strokeWidth={1} size={20} color="black" />
           </div>
