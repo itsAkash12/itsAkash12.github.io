@@ -1,3 +1,10 @@
+.about{
+  background-image:url(../images/blue.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  padding-bottom: 50px;
+}
 .about-container {
   padding-top: 100px;
   width: 70%;
@@ -12,12 +19,12 @@
 .about-img > img {
   width: 400px;
   margin-top: -40px;
-  box-shadow: rgba(14, 118, 168, 0.8) 0px 15px 35px;
+  box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
   transition: all 0.2s ease-in-out;
   border-radius: 50%;
 }
 .about-img > img:hover {
-  box-shadow: rgba(252, 16, 86, 0.8) 0px 15px 35px;
+  box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
   transition: all 0.2s ease-in-out;
 }
 .hello {
@@ -83,7 +90,7 @@
 #button {
   margin-top: 40px;
 }
-#button > button {
+#button >a> button {
   width: 198px;
   height: 50px;
   border: none;
@@ -95,7 +102,7 @@
   transition: all 0.2s ease-in-out;
   cursor: pointer;
 }
-#button > button:hover {
+#button >a> button:hover {
   box-shadow: rgba(252, 16, 86, 0.8) 0px 5px 15px;
   transition: all 0.2s ease-in-out;
 }

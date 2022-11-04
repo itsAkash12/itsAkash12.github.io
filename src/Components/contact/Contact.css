@@ -1,0 +1,40 @@
+#Contact>p{
+    font-size: 56px;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(0, 173, 231);
+}
+/* .detail-container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+} */
+.contact-container{
+    width: 80%;
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: auto;
+    margin-top: -80px;
+    padding: 50px;
+}
+/* .phone-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+.phone-container>img{
+    width: 60%;
+}
+.boxes{
+    display: flex;
+    gap: 10px;
+}
+.boxes>a:nth-child(1){
+    font-size: 40px;
+}
+.boxes>a:nth-child(2){
+    font-weight: 500;
+    font-size: 18px;
+    text-decoration: none;
+    color: black;
+}

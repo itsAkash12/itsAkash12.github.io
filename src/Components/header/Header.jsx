@@ -37,7 +37,7 @@ export default function Header() {
           <Link className="button" activeClass="active" to="github" spy={true} smooth={true} offset={-80} duration={500}>
             <button>GITHUB</button>
           </Link>
-          <Link className="button" activeClass="active" to="contact" spy={true} smooth={true} offset={50} duration={500}>
+          <Link className="button" activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500}>
             <button>CONTACT & RESUME</button>
           </Link>
           <div className="icon">
