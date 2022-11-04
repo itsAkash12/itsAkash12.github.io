@@ -19,7 +19,7 @@ export default function About() {
   return (
     <div id="home" className="about">
       <div className="about-container">
-        <div className="left" data-aos={"fade-left"}>
+        <div className="left" data-aos="fade-up">
           <p className="hello">Hello 👋.</p>
           <p className="intro">
             I'm
@@ -72,7 +72,7 @@ export default function About() {
             </a>
           </div>
         </div>
-        <div className="about-img">
+        <div className="about-img" data-aos="fade-up">
           <img src={profile} alt="akki" />
         </div>
       </div>

@@ -1,14 +1,20 @@
-import React from "react";
+import React,{useEffect} from "react";
 import "./AboutMe.css";
 import FeelingProud from "../greetings/FeelingProud";
+import AOS from "aos";
 export default function AboutMe() {
+  useEffect(() => {
+    AOS.init({
+      duration: 2000,
+    });
+  }, []);
   return (
-    <div id="about">
+    <div id="about" data-aos="fade-up">
       <div id="AboutMe-parent">
         <p>Who I am</p>
         <div className="parent">
           <div>
-            <div className="paragraph">
+            <div className="paragraph" >
               <p>
                 My name is Akash Kumar Singh. I'm a Full-Stack Web-Developer
                 based in Masai School, Bengaluru.
