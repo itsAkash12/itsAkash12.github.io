@@ -1,18 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.1cd6ebfa.css",
-    "main.js": "/static/js/main.61c8be69.js",
+    "main.css": "/static/css/main.6b3beaf9.css",
+    "main.js": "/static/js/main.65efffb3.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/2_macbookgold_front.png": "/static/media/2_macbookgold_front.1a4812fd55a5de0ba407.png",
     "static/media/1_macbookgold_front.png": "/static/media/1_macbookgold_front.24cc13bba7f7d2bc3799.png",
     "static/media/1_macbookpro15_front.png": "/static/media/1_macbookpro15_front.f4713062bf8ad0fe710b.png",
     "static/media/4_ipad_gold_landscape.png": "/static/media/4_ipad_gold_landscape.7abfe5a1707384314c25.png",
     "static/media/youtube.png": "/static/media/youtube.9cdad1cfcf241484766b.png",
+    "static/media/phone.png": "/static/media/phone.b457a4ef57d3aeb0be64.png",
     "static/media/5_iphone13promaxgold_portrait.png": "/static/media/5_iphone13promaxgold_portrait.7d8095bdf6a0f3b9daee.png",
     "static/media/weatherapp.png": "/static/media/weatherapp.94f958a445e9965be745.png",
     "static/media/6_iphone13red_portrait.png": "/static/media/6_iphone13red_portrait.0584a2471121fcabd7ae.png",
     "static/media/1_iphone12minired_portrait.png": "/static/media/1_iphone12minired_portrait.d2053d1cdf5dd29fc084.png",
     "static/media/2_iphone12minired_portrait.png": "/static/media/2_iphone12minired_portrait.3d7d96431a5952fc32be.png",
+    "static/media/blue.png": "/static/media/blue.96e0a837f2a733e6ceba.png",
+    "static/media/Akash_Singh_Resume.pdf": "/static/media/Akash_Singh_Resume.54d07040da226d5a4151.pdf",
     "static/media/final_profile_pic.jpg": "/static/media/final_profile_pic.6e0f8644001a0d60f7a8.jpg",
     "static/media/logo.png": "/static/media/logo.9c724c25e1be6843369b.png",
     "static/media/deno.svg": "/static/media/deno.96d4a63dc8a39aad6c76b5fb9e7afae8.svg",
@@ -92,12 +95,12 @@
     "static/media/vuetifyjs.svg": "/static/media/vuetifyjs.8a22a3ec81ad62e97094feab6e7ee0fb.svg",
     "static/media/npm.svg": "/static/media/npm.0c82b4efafb5e5cd7cd99da29bbfae32.svg",
     "static/media/bulma.svg": "/static/media/bulma.5910d4416e077262d0264109649ab214.svg",
-    "main.1cd6ebfa.css.map": "/static/css/main.1cd6ebfa.css.map",
-    "main.61c8be69.js.map": "/static/js/main.61c8be69.js.map",
+    "main.6b3beaf9.css.map": "/static/css/main.6b3beaf9.css.map",
+    "main.65efffb3.js.map": "/static/js/main.65efffb3.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1cd6ebfa.css",
-    "static/js/main.61c8be69.js"
+    "static/css/main.6b3beaf9.css",
+    "static/js/main.65efffb3.js"
   ]
 }
