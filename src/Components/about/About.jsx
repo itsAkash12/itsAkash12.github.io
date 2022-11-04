@@ -4,30 +4,34 @@ import profile from "../images/final_profile_pic.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import AOS from "aos"
+import AOS from "aos";
+import download from "../download/Akash_Singh_Resume.pdf";
 import Typewriter from "typewriter-effect";
 export default function About() {
   useEffect(() => {
     AOS.init({
-      duration : 2000
+      duration: 2000,
     });
   }, []);
+  function handleClick(){
+    window.open("https://drive.google.com/file/d/1pscbGT7ZB11A9NBTOK6TIHmiEeM0GRXL/view?usp=sharing",'_blank');
+}
   return (
     <div id="home" className="about">
       <div className="about-container">
         <div className="left" data-aos={"fade-left"}>
           <p className="hello">Hello 👋.</p>
           <p className="intro">
-            I'm<span id="name"><Typewriter
-              options={{
-                strings: [
-                  "Akash Kumar Singh",
-                  "आकाश कुमार सिंह",
-                ],
-                autoStart: true,
-                loop: true,
-              }}
-            /></span>
+            I'm
+            <span id="name">
+              <Typewriter
+                options={{
+                  strings: ["Akash Kumar Singh", "आकाश कुमार सिंह"],
+                  autoStart: true,
+                  loop: true,
+                }}
+              />
+            </span>
           </p>
           <div className="type">
             <Typewriter
@@ -49,7 +53,7 @@ export default function About() {
               </a>
             </div>
             <div className="linkedin">
-              <a href="https://www.linkedin.com/in/akash-kumar-singh-36a81523a" target="_blank">
+              <a href="https://www.linkedin.com/in/itsakash12" target="_blank">
                 <FontAwesomeIcon
                   className="abc"
                   icon={faLinkedinIn}
@@ -63,7 +67,9 @@ export default function About() {
             </div>
           </div>
           <div id="button">
-            <button>Contact Me</button>
+            <a href={download} download="Akash-Singh-Resume">
+              <button onClick={handleClick}>Resume</button>
+            </a>
           </div>
         </div>
         <div className="about-img">

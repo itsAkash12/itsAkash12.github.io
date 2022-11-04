@@ -25,7 +25,7 @@ const projects = {
       name: "Zee5 Premium",
       pro_img: zee5,
       phone_img: zee1,
-      url: "https://github.com/BishalPatgiri/rural-error-930",
+      url: "https://github.com/itsAkash12/Zee5_clone",
       deploy_url: "https://beamish-fox-ca0e7f.netlify.app/",
       // web_url: "booking.png",
       description:
@@ -50,7 +50,7 @@ const projects = {
       name: "Sephora Clone",
       pro_img: sep1,
       phone_img: sep2,
-      url: "https://github.com/kniranjan0/gabby-pollution-3220",
+      url: "https://github.com/itsAkash12/Sephora_clone",
       deploy_url: "https://zee5-by-akash-singh.netlify.app/",
       web_url: "mailchimp.png",
       description:
@@ -72,7 +72,7 @@ const projects = {
       name: "Mini Youtube",
       pro_img: you1,
       phone_img: you2,
-      url: "https://github.com/BishalPatgiri/rural-error-930",
+      url: "https://github.com/itsAkash12/youtube_mini/tree/main/YouTubeMini-II",
       deploy_url: "https://mini-youtubeby-akash.netlify.app/",
       web_url: "booking.png",
       description:
@@ -94,7 +94,7 @@ const projects = {
       name: "Weather App",
       pro_img: wea1,
       phone_img: wea2,
-      url: "https://github.com/BishalPatgiri/rural-error-930",
+      url: "https://github.com/itsAkash12/weatherApp",
       deploy_url: "https://thriving-gecko-577a1d.netlify.app/",
       web_url: "booking.png",
       description:
