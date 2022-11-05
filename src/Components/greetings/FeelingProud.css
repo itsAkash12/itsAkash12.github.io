@@ -1,5 +1,7 @@
+
 #gif>svg{
-  height: 480px;
+  height: 380px;
+  width: 400px;
 }
 #eyeb {
     transform: translateY(-9px);
@@ -308,4 +310,22 @@
       transform: scale(0.96);
     }
   }
-  
+
+  @media screen and (min-width: 750px) and (max-width: 1000px){
+    #gif{
+      width: 100px;
+    }
+    #gif>svg{
+      height: 350px;
+    }
+  }
+
+  @media screen and (min-width: 200px) and (max-width: 750px){
+    /* #gif{
+      width: 50px;
+    } */
+    #gif>svg{
+      height: 350px;
+      width: 320px;
+    }
+  }
