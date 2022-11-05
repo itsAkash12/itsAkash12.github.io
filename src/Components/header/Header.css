@@ -1,10 +1,10 @@
 .main {
-  height: 85px;
+  /* height: 85px; */
   background-color: #fffdfc;
   display: flex;
   position: sticky;
   width: 100%;
-  z-index: 9999;
+  z-index: 999;
   top: 0px;
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
@@ -53,6 +53,10 @@
   align-items: center;
   gap: 3px;
 }
+.links_container{
+  display: flex;
+  gap: 3px;
+}
 .button > button {
   padding: 10px 15px;
   border: none;
@@ -99,4 +103,70 @@
 }
 .icon:hover {
   box-shadow: rgba(0, 174, 255, 0.36) 0px 3px 6px, rgba(0, 174, 255, 0.43) 0px 3px 6px;
+}
+.mobile_bars{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.open_bars{
+  font-size: 28px;
+}
+.mobile_menu_bars{
+  display: none;
+}
+
+@media screen and (min-width: 200px) and (max-width: 1070px){
+  .mobile_menu_bars{
+    display: flex;
+  }
+  .links_container{
+    display: none;
+  }
+  .main{
+    position: sticky;
+    z-index: 999;
+  }
+  .icon {
+    width: 35px;
+    height: 35px;
+  }
+  .open_bars{
+    font-size: 25px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px){
+  .name > p{
+    font-size: 16px;
+  }
+  .name > p::first-letter {
+    font-size: 22px;
+  }
+  .name > p > span::first-letter {
+    font-size: 22px;
+  }
+  .name > img {
+    width: 50px;
+  }
+}
+@media screen and (min-width: 200px) and (max-width: 400px){
+  .name > p{
+    font-size: 14px;
+  }
+  .name > p::first-letter {
+    font-size: 20px;
+  }
+  .name > p > span::first-letter {
+    font-size: 20px;
+  }
+  .name > img {
+    width: 40px;
+  }
+  .icon {
+    width: 25px;
+    height: 25px;
+  }
+  .open_bars{
+    font-size: 18px;
+  }
 }

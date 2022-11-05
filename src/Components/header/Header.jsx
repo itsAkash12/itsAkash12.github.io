@@ -5,7 +5,9 @@ import { motion } from "framer-motion";
 import "./Header.css";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
-import logo from "../images/logo.png";
+import WebNavbar from "./WebNavbar";
+import MobileNavbar from "./MobileNavbar";
+
 export default function Header() {
   return (
     <motion.div
@@ -14,37 +16,7 @@ export default function Header() {
       transition={{ type: "tween", duration: 0.7, ease: "easeInOut" }}
       className="main"
     >
-      <div className="container">
-        <div className="name">
-          <img src={logo} alt="Akash" />
-          <p>
-            Akash <span>Singh</span>
-          </p>
-        </div>
-        <div className="details">
-          <Link className="button" activeClass="active" to="home" spy={true} smooth={true} offset={-100} duration={500}>
-            <button>HOME</button>
-          </Link>
-          <Link className="button" activeClass="active" to="about" spy={true} smooth={true} offset={20} duration={500}>
-            <button>ABOUT ME</button>
-          </Link>
-          <Link className="button" activeClass="active" to="skills" spy={true} smooth={true} offset={-50} duration={500}>
-            <button>SKILLS</button>
-          </Link>
-          <Link className="button" activeClass="active" to="projects" spy={true} smooth={true} offset={-80} duration={500}>
-            <button>PROJECT</button>
-          </Link>
-          <Link className="button" activeClass="active" to="github" spy={true} smooth={true} offset={-80} duration={500}>
-            <button>GITHUB</button>
-          </Link>
-          <Link className="button" activeClass="active" to="Contact" spy={true} smooth={true} offset={50} duration={500}>
-            <button>CONTACT & RESUME</button>
-          </Link>
-          <div className="icon">
-            <CgSun strokeWidth={1} size={20} color="black" />
-          </div>
-        </div>
-      </div>
+      <WebNavbar></WebNavbar>
       <motion.div animate={{ x: 100 }} />
     </motion.div>
   );

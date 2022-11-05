@@ -17,7 +17,7 @@ function App() {
       <Projects />
       <Github_stats />
       <Contact />
-      <ThanksGiving />
+      {/* <ThanksGiving /> */}
     </div>
   );
 }

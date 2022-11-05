@@ -4,13 +4,11 @@
     line-height: normal;
     color: rgb(0, 173, 231);
 }
-/* .detail-container{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-} */
+.detail-container{
+    width: 100%;
+}
 .contact-container{
-    width: 80%;
-    /* border: 1px solid red; */
+    width: 70%;
     display: grid;
     grid-template-columns: repeat(2,1fr);
     margin: auto;
@@ -28,13 +26,55 @@
 .boxes{
     display: flex;
     gap: 10px;
+    justify-content: left;
+    /* text-align: ; */
 }
 .boxes>a:nth-child(1){
     font-size: 40px;
 }
-.boxes>a:nth-child(2){
+.boxes>div:nth-child(2)>a{
     font-weight: 500;
     font-size: 18px;
     text-decoration: none;
     color: black;
+    
+}
+@media screen and (min-width: 750px) and (max-width: 1000px){
+    
+    #Contact>p {
+        color: #00ade7;
+        font-size: 40.8px;
+        font-weight: 700;
+        line-height: normal;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 750px){
+    #Contact>p {
+        color: #00ade7;
+        font-size: 30px;
+        font-weight: 700;
+        line-height: normal;
+    }
+    .detail-container{
+        /* width: 90%; */
+    }
+    .boxes>a:nth-child(1){
+        font-size: 30px;
+    }
+    .boxes>a:nth-child(2){
+        font-weight: 500;
+        font-size: 11px;
+        text-decoration: none;
+        color: black;
+    }
+    .phone-container>img{
+        width: 110%;
+    }
+    .boxes>div:nth-child(2)>a{
+        font-weight: 400;
+        font-size: 14px;
+        text-decoration: none;
+        color: black;
+    }
 }

@@ -4,12 +4,12 @@ import sephora from "../images/projects/zee5/2_macbookgold_front.png";
 import zee1 from "../images/projects/zee5/5_iphone13promaxgold_portrait.png";
 import zee5 from "../images/projects/zee5/1_macbookgold_front.png";
 import zee2 from "../images/projects/zee5/4_ipad_gold_landscape.png";
-import sep1 from "../images/projects/sephora/1_macbookpro15_front.png"
-import sep2 from "../images/projects/sephora/6_iphone13red_portrait.png"
-import you1 from "../images/projects/sephora/youtube.png"
-import you2 from "../images/projects/sephora/1_iphone12minired_portrait.png"
-import wea1 from "../images/projects/sephora/weatherapp.png"
-import wea2 from "../images/projects/sephora/2_iphone12minired_portrait.png"
+import sep1 from "../images/projects/sephora/1_macbookpro15_front.png";
+import sep2 from "../images/projects/sephora/6_iphone13red_portrait.png";
+import you1 from "../images/projects/sephora/youtube.png";
+import you2 from "../images/projects/sephora/1_iphone12minired_portrait.png";
+import wea1 from "../images/projects/sephora/weatherapp.png";
+import wea2 from "../images/projects/sephora/2_iphone12minired_portrait.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faReact,
@@ -122,8 +122,12 @@ export default function Projects() {
         {projects.data.map((el) => (
           <div className="project">
             <div id="project-cards-image">
-              <img src={el.pro_img} alt="akash" />
-              <img src={el.phone_img} alt="akash" />
+              <div>
+                <img src={el.pro_img} alt="akash" />
+              </div>
+              <div>
+                <img src={el.phone_img} alt="akash" />
+              </div>
             </div>
             <div>
               {el.languages.length <= 3 ? (
@@ -168,7 +172,7 @@ export default function Projects() {
                   <button>GitHub</button>
                 </a>
                 <a href={el.deploy_url} target="_blank">
-                <button>Live</button>
+                  <button>Live</button>
                 </a>
               </div>
             </div>
