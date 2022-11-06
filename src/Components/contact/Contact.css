@@ -56,25 +56,25 @@
         font-weight: 700;
         line-height: normal;
     }
-    .detail-container{
-        /* width: 90%; */
-    }
     .boxes>a:nth-child(1){
-        font-size: 30px;
+        font-size: 20px;
     }
-    .boxes>a:nth-child(2){
+    .boxes>div:nth-child(2)>a>p{
         font-weight: 500;
         font-size: 11px;
         text-decoration: none;
         color: black;
+        margin-top: 5px;
     }
     .phone-container>img{
         width: 110%;
     }
-    .boxes>div:nth-child(2)>a{
-        font-weight: 400;
-        font-size: 14px;
-        text-decoration: none;
-        color: black;
+    .resize{
+        margin-left: 10px;
+        border: 1px solid red;
+    }
+    .boxes>div:nth-child(2)>a>p{
+
+        
     }
 }
