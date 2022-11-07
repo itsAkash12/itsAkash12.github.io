@@ -1,12 +1,7 @@
 import React from "react";
 import {
   Link,
-  Button,
-  Element,
-  Events,
   animateScroll as scroll,
-  scrollSpy,
-  scroller,
 } from "react-scroll";
 import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
@@ -14,7 +9,7 @@ import logo from "../images/logo.png";
 import "./Header.css";
 import MobileNavbar from "./MobileNavbar";
 
-function WebNavbar() {
+function WebNavbar({func,sidebar}) {
   return (
     <div className="container">
       <div className="name">
@@ -95,8 +90,8 @@ function WebNavbar() {
         <div className="icon">
           <CgSun strokeWidth={1} size={20} color="black" />
         </div>
-        <div className="mobile_menu_bars" style={{marginLeft:"15px"}}>
-          <MobileNavbar></MobileNavbar>
+        <div className="mobile_menu_bars" style={{marginLeft:"15px"}} onClick={func}>
+          <MobileNavbar sidebar={sidebar}></MobileNavbar>
         </div>
       </div>
     </div>

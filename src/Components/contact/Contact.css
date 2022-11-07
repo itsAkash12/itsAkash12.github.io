@@ -71,10 +71,5 @@
     }
     .resize{
         margin-left: 10px;
-        border: 1px solid red;
-    }
-    .boxes>div:nth-child(2)>a>p{
-
-        
     }
 }
