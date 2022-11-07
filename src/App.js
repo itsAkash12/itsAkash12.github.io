@@ -19,7 +19,7 @@ function App() {
     <div className="App">
       <Header openSidebar={toggleSidebar} sidebar={sidebar}/>
       <Backdrop sidebar={sidebar} close={toggleSidebar}/>
-      <Sidebar sidebar={sidebar}/>
+      <Sidebar close={toggleSidebar} sidebar={sidebar}/>
       <About />
       <AboutMe />
       <Skills /> 
