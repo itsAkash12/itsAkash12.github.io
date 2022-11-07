@@ -22,7 +22,6 @@ const skillsDataBackend = [
   'Node JS',
   'MySQL',
   'Postman',
-  'Firebase',
   'Express JS',
   'Npm'
 ]
