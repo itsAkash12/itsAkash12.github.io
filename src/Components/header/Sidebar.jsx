@@ -4,7 +4,7 @@ import {
   Link,
   animateScroll as scroll,
 } from "react-scroll";
-function Sidebar({ sidebar }) {
+function Sidebar({ sidebar, close }) {
   return (
     <div className={sidebar ? "sidebar sidebar--open" : "sidebar"}>
       <Link
@@ -14,6 +14,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={-100}
         duration={500}
+        onClick={close}
       >
         <li>Home</li>
       </Link>
@@ -24,6 +25,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={0}
         duration={500}
+        onClick={close}
       >
         <li>About Me</li>
       </Link>
@@ -34,6 +36,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={-80}
         duration={500}
+        onClick={close}
       >
         <li>Skills</li>
       </Link>
@@ -44,6 +47,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={-80}
         duration={500}
+        onClick={close}
       >
         <li>Projects</li>
       </Link>
@@ -54,6 +58,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={-80}
         duration={500}
+        onClick={close}
       >
         <li>Github</li>
       </Link>
@@ -64,6 +69,7 @@ function Sidebar({ sidebar }) {
         smooth={true}
         offset={50}
         duration={500}
+        onClick={close}
       >
         <li>Contact</li>
       </Link>
