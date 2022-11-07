@@ -9,7 +9,7 @@ export default function AboutMe() {
     });
   }, []);
   return (
-    <div id="about" data-aos="fade-up">
+    <div id="about">
       <div id="AboutMe-parent">
         <p>Who I am</p>
         <div className="parent">

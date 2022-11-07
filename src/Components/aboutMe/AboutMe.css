@@ -35,7 +35,7 @@
     color: rgba(33, 33, 33, 0.8);
 }
 
-@media screen and (min-width: 750px) and (max-width: 1000px){
+@media screen and (min-width: 750px) and (max-width: 1050px){
     #AboutMe-parent{
         /* margin-top: 50px; */
         padding-top: 15px;
@@ -47,7 +47,7 @@
         line-height: normal;
     }
     .paragraph>p{
-        font-size: 16px;
+        font-size: 15px;
     }
     
 }
