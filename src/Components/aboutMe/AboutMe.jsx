@@ -21,14 +21,11 @@ export default function AboutMe() {
               </p>
               <p>
                 I am a B.Com graduate. love exploring new technologies in the
-                field of Web Development and always try to adapt to it.I believe
+                field of Web Development and always try to adapt to it. I believe
                 in the concept of continuous learning by regularly upgrading my
                 skills and enhancing my knowledge.I have learned MERN stack,
-                data structures, algorithms, and soft skills at Masai School. As
-                a developer, my hunger for learning has drastically increased.
-                And I want to centralize my skills and learning for enhancement
-                of an organization and more of it, to enhance my career. And
-                besides coding, I love playing Cricket, traveling and Listening
+                data structures, algorithms, and soft skills at Masai School.
+                Besides coding, I love playing Cricket, traveling and Listening
                 Music.
               </p>
             </div>
