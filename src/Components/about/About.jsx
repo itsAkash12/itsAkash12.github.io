@@ -67,7 +67,7 @@ export default function About() {
             </div>
           </div>
           <div id="button">
-            <a href={download} download="Akash-Singh-Resume">
+            <a href={download} download="fw20_1302-Akash-Singh-Resume">
               <button onClick={handleClick}>Resume</button>
             </a>
           </div>

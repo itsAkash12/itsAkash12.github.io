@@ -29,7 +29,7 @@ export default function Contact() {
           <img src={phone} alt="phone" />
           <br />
           <div id="button" style={{ marginTop: "0px" }}>
-            <a href={download} download="Akash-Singh-Resume">
+            <a href={download} download="fw20_1302-Akash-Singh-Resume">
               <button onClick={handleClick}>Resume</button>
             </a>
           </div>

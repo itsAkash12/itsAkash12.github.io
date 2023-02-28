@@ -92,7 +92,7 @@ function WebNavbar({func,sidebar}) {
           </Link>
           <a
             className="button"
-            href={download} download="Akash-Singh-Resume"
+            href={download} download="fw20_1302-Akash-Singh-Resume"
           >
               <button onClick={handleClick}>RESUME</button>
           </a>
