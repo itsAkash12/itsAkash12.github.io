@@ -27,7 +27,7 @@ export default function Github_stats() {
       </div>
       <div>
         <p className="title">My Github Calender</p>
-        <div className="calender">
+        <div className="calender" style={{display:"flex",justifyContent:"center"}}>
           <GitHubCalendar
             username="itsAkash12"
             year="last"

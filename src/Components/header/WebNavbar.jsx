@@ -7,9 +7,13 @@ import { CgSun } from "react-icons/cg/";
 import { HiMoon } from "react-icons/hi";
 import logo from "../images/logo.png";
 import "./Header.css";
+import download from "../download/Akash_Singh_Resume.pdf";
 import MobileNavbar from "./MobileNavbar";
 
 function WebNavbar({func,sidebar}) {
+  function handleClick(){
+    window.open("https://drive.google.com/file/d/1pscbGT7ZB11A9NBTOK6TIHmiEeM0GRXL/view?usp=sharing",'_blank');
+}
   return (
     <div className="container">
       <div className="name">
@@ -84,8 +88,14 @@ function WebNavbar({func,sidebar}) {
             offset={50}
             duration={500}
           >
-            <button>CONTACT & RESUME</button>
+            <button>CONTACT</button>
           </Link>
+          <a
+            className="button"
+            href={download} download="Akash-Singh-Resume"
+          >
+              <button onClick={handleClick}>RESUME</button>
+          </a>
         </div>
         <div className="icon">
           <CgSun strokeWidth={1} size={20} color="black" />
