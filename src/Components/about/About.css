@@ -21,9 +21,10 @@
   box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
   transition: all 0.2s ease-in-out;
   border-radius: 50%;
+  margin-left: 100px;
 }
 .about-img > img:hover {
-  box-shadow: rgba(0, 183, 255, 0.9) 0px 15px 35px;
+  box-shadow: rgba(36, 46, 49, 0.9) 0px 15px 35px;
   transition: all 0.2s ease-in-out;
 }
 .hello {
@@ -36,6 +37,7 @@
   display: flex;
   gap: 10px;
   flex-direction: row;
+  width: 350px;
 }
 .intro,
 .type {
@@ -114,14 +116,15 @@
     color: rgb(43, 43, 43);
   }
   .about-container {
-    width:70%;
+    width:90%;
   }
   .intro,
   .type {
+    width: 250px;
     font-size: 20px;
   }
   .about-img > img {
-    width: 80%;
+    width: 60%;
     margin-top: -20px;
   }
   .left {
@@ -151,6 +154,7 @@
   }
   .intro,
   .type {
+    width: 250px;
     font-size: 18px;
   }
   .about-img > img {
@@ -186,14 +190,16 @@
   }
   .intro,
   .type {
+    width: 180px;
     font-size: 14px;
   }
   .about-img{
     text-align: right;
   }
   .about-img > img {
-    width: 80%;
+    width: 70%;
     margin-top: -20px;
+    margin-left:-100px ;
   }
   .left{
     width: 120%;

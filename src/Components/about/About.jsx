@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import "./About.css";
-import profile from "../images/final_profile_pic.jpg";
+import profile from "../images/newDP.jpg";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-regular-svg-icons";
 import { faGithub, faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
